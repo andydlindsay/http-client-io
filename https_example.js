@@ -1,9 +1,10 @@
 var https = require('https');
-var host = 'www.example.org';
+var host = 'stream-large-file.herokuapp.com';
+var path = '/give-me-stuff-now';
 var log = console.log;
 var options = {
   host,
-  path: '/'
+  path
 };
 
 // called by https when the request is made
